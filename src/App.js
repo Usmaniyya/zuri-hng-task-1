@@ -3,7 +3,7 @@ import React from 'react';
 const App = () => {
 	return (
 		<div className='container'>
-			<div className='my-8'>
+			<div className='my-4'>
 				<div className='absolute right-16 md:right-1/4 cursor-pointer'>
 					<img
 						className='hidden md:block'
@@ -16,7 +16,7 @@ const App = () => {
 						alt='dots'
 					/>
 				</div>
-				<div className='flex flex-col items-center justify-between gap-5'>
+				<div className='flex flex-col items-center justify-between gap-4'>
 					<div className='flex flex-col gap-3 items-center'>
 						<img
 							id='profile_img'
